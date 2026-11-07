@@ -1,4 +1,4 @@
-package io.github.stasbykov.datafaker;
+package io.github.stasbykov.testdatagenerator;
 
 import java.math.BigInteger;
 import java.nio.charset.StandardCharsets;

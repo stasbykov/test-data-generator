@@ -1,4 +1,4 @@
-package io.github.stasbykov.datafaker;
+package io.github.stasbykov.testdatagenerator;
 
 import java.util.Currency;
 import java.util.List;

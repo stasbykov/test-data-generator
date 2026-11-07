@@ -32,7 +32,7 @@ they are not bundled into the library JAR.
 ## Quick start
 
 ```java
-import io.github.stasbykov.datafaker.DataGenerator;
+import io.github.stasbykov.testdatagenerator.DataGenerator;
 import java.util.Locale;
 
 DataGenerator data = DataGenerator.builder()
@@ -142,7 +142,7 @@ catalog, not a complete list of currencies.
 To supply your own names:
 
 ```java
-import io.github.stasbykov.datafaker.CurrencyData;
+import io.github.stasbykov.testdatagenerator.CurrencyData;
 import java.util.List;
 
 DataGenerator custom = DataGenerator.builder()
@@ -343,7 +343,7 @@ A custom generator receives `GeneratorContext`, which provides the configured
 generators, locale, clock, catalog, length limit, and random integer methods.
 
 ```java
-import io.github.stasbykov.datafaker.GeneratorContext;
+import io.github.stasbykov.testdatagenerator.GeneratorContext;
 import java.util.Objects;
 
 public final class OrderDataGenerator {
@@ -371,7 +371,7 @@ includes both boundaries. Context generator factories share the same random stre
 For a single generator, use a factory directly:
 
 ```java
-import io.github.stasbykov.datafaker.FinancialDataGenerator;
+import io.github.stasbykov.testdatagenerator.FinancialDataGenerator;
 
 FinancialDataGenerator financial =
         DataGenerator.russianGenerator(FinancialDataGenerator::new);

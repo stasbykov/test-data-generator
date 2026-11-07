@@ -1,4 +1,4 @@
-package io.github.stasbykov.datafaker;
+package io.github.stasbykov.testdatagenerator;
 
 import java.util.List;
 import java.util.Locale;
