@@ -1,4 +1,4 @@
-# Datafaker Wrapper
+# Test Data Generator
 
 A Java library for generating test strings, currencies, financial references,
 address fields, UUIDs, and sample text. Configure the language, random seed, clock,
@@ -19,7 +19,7 @@ After installing locally, add this dependency to your test project:
 ```xml
 <dependency>
     <groupId>io.github.stasbykov</groupId>
-    <artifactId>datafaker-wrapper</artifactId>
+    <artifactId>test-data-generator</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <scope>test</scope>
 </dependency>
